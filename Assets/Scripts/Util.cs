@@ -3,18 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Scenemove : MonoBehaviour
+static class Util
 {
-    public string scenename;
 
-    public void sm()
+    // Util.SceneMove("MainScreen");
+    public static void SceneMove(string sceneName)
     {
         SceneManager.LoadScene(scenename);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
